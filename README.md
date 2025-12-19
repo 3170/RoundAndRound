@@ -33,7 +33,7 @@ Download the latest release from the [Releases](../../releases) page.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/RoundAndRound.git
+   git clone https://github.com/3170/RoundAndRound.git
    ```
 
 2. Open `RoundAndRound.xcodeproj` in Xcode
