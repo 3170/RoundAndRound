@@ -41,17 +41,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
         if let button = statusItem?.button {
-            button.image = NSImage(systemSymbolName: "rainbow", accessibilityDescription: "RoundAndRound")
+            button.image = NSImage(systemSymbolName: "circle.circle", accessibilityDescription: "RoundAndRound")
             button.action = #selector(togglePopover)
             button.target = self
         }
 
         popover = NSPopover()
-        popover?.contentSize = NSSize(width: 320, height: 380)
         popover?.behavior = .transient
         popover?.animates = true
         popover?.contentViewController = NSHostingController(
             rootView: MenuBarSettingsView(settings: settings)
+                .padding(12)
         )
     }
 
