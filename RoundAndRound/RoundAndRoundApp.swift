@@ -20,6 +20,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var popover: NSPopover?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        // Initialize license manager (checks trial/license status)
+        _ = LicenseManager.shared
+
         screenManager = ScreenManager(settings: settings)
         screenManager?.setupOverlays()
 

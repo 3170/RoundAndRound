@@ -15,6 +15,7 @@
 		A1000006229F0001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006229F0000 /* SettingsView.swift */; };
 		A1000007229F0001 /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000007229F0000 /* LaunchAtLogin.swift */; };
 		A1000008229F0001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000008229F0000 /* Assets.xcassets */; };
+		A100000B229F0001 /* LicenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000B229F0000 /* LicenseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A1000008229F0000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1000009229F0000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A100000A229F0000 /* RoundAndRound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoundAndRound.entitlements; sourceTree = "<group>"; };
+		A100000B229F0000 /* LicenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				A1000001229F0000 /* RoundAndRoundApp.swift */,
+				A100000B229F0000 /* LicenseManager.swift */,
 				A1000023229F0000 /* Models */,
 				A1000024229F0000 /* Views */,
 				A1000025229F0000 /* Controllers */,
@@ -183,6 +186,7 @@
 				A1000005229F0001 /* CornerOverlayView.swift in Sources */,
 				A1000006229F0001 /* SettingsView.swift in Sources */,
 				A1000007229F0001 /* LaunchAtLogin.swift in Sources */,
+				A100000B229F0001 /* LicenseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
